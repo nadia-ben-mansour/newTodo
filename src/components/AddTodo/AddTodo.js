@@ -21,19 +21,18 @@ const AddTodo = () => {
   return (
     <Container className={classes.Container}>
       <Row>
-        <Col>
-          <Label for="todo" className={classes.title}>
-            Add ToDo
-          </Label>
-        </Col>
-        <Col>
+        <Col xs="4">
           {" "}
           <Input
+            placeHolder="Add To Do"
             onChange={handleChange}
             name="todo"
             id="todo"
             className={classes.inpuTodo}
           ></Input>{" "}
+        </Col>
+        <Col xs="4">
+          {" "}
           <Button className={classes.buttonAdd} onClick={handleClick}>
             Add
           </Button>
