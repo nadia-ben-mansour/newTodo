@@ -1,19 +1,18 @@
 .title{
     font-size: large;
+    display: flex; 
+    justify-content: flex-end;
 
 }
 .Container{
-    padding: 5rem;
+    margin: 3.5rem;
 }
 
-.inpuTodo{
-    width: 70%; 
-    height: 1.5rem;
-}
+
 
 .buttonAdd{
     background-color: blue;
-    width: 3rem; 
+    
     border-radius: 0.7rem; 
 
 }

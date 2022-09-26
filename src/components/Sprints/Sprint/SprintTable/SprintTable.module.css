@@ -1,0 +1,42 @@
+.backlog{
+    background-color: #00BFFF;
+                    width: 100%;
+                    border-radius: 13px;
+                   
+                    text-align: center;
+                    color: white;
+                    padding-top: 0.3rem;
+                     height: 2.5rem;
+}
+.todo{
+    background-color: #800080 ; 
+                    border-radius: 13px ;
+                    text-align: center;
+                    color: white ;
+                    padding-top: 0.3rem;
+                    height: 2.5rem;
+}
+.progress{
+    border-radius: 13px ;
+    text-align: center;
+    color: white ;
+    background-color: #FF8C00;
+    padding-top: 0.3rem;
+    height: 2.5rem;
+}
+.test{
+    border-radius: 13px ;
+    text-align: center;
+    color: white ;
+    background-color: #FF1493;
+    padding-top: 0.3rem;
+    height: 2.5rem;
+}
+.done{
+    border-radius: 13px ;
+    text-align: center;
+    color: white ;
+    background-color: #228B22;
+    padding-top: 0.3rem;
+    height: 2.5rem;
+}

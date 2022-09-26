@@ -27,9 +27,9 @@ const TodoList = () => {
 
   return (
     <div>
-      <Row>
-        {list.map((item, index) => {
-          return (
+      {list.map((item, index) => {
+        return (
+          <Row>
             <Col
               onDragStart={(e) => {
                 dragItem.current = index;
@@ -45,12 +45,12 @@ const TodoList = () => {
               xs="12"
               lg="12"
             >
-              <h3>{item.title}</h3>
+              <h4 className={classes.title}>{item.title}</h4>
               <Button className={classes.button}> Delete </Button>
             </Col>
-          );
-        })}
-      </Row>
+          </Row>
+        );
+      })}
     </div>
   );
 };
