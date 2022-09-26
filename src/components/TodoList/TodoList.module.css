@@ -1,0 +1,19 @@
+.col{
+    box-sizing: content-box;
+                border: 0.7px solid black;
+                margin-inline: 5rem;
+                margin-block: 1rem;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding-inline: 2rem;
+                width: 70%;
+}
+.button{
+    background-color: red; 
+    color: white; 
+    border-radius: 0.5rem; 
+   height:"0.1rem" ;
+   width:"5rem";
+   border:none
+}
